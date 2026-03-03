@@ -79,15 +79,16 @@
 
     <script>
         function animateButton(event) {
-            event.preventDefault(); // Empêche la soumission immédiate du formulaire
+            event.preventDefault(); 
             const button = document.getElementById('submitBtn');
             button.classList.add('click-animation'); // Ajoute l'animation
 
-            // Soumet le formulaire après l'animation
+            // Send le formulaire after animation
             setTimeout(() => {
                 event.target.submit();
-            }, 300); // Correspond à la durée de l'animation (0.3s)
+            }, 300); //durée ainm
         }
     </script>
 </body>
+
 </html>
